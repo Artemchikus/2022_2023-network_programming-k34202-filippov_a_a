@@ -28,6 +28,7 @@ Date of finished: ...
 4.	Используя Ansible, настроены логин/пароль сразу на 2-х CHR. Выяснилось, что в последних версиях Mikrotik изменение имени пользователя запрещено.  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/13.png)  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/14.png)  
+![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/14.5.png)  
 5.	Используя Ansible, настроены NTP-клиенты сразу на 2-х CHR.  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/15.png)  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/16.png)  
