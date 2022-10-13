@@ -25,7 +25,7 @@ Date of finished: ...
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/10.png)  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/11.png)  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/12.png)  
-4.	Используя Ansible, настроены логин/пароль сразу на 2-х CHR. Выяснилось, что в последних версиях Mikrotik изменение имени пользователя запрещено.  
+4.	Используя Ansible, настроены логин/пароль сразу на 2-х CHR.   
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/13.png)  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/14.png)  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab2/images/14.5.png)  
