@@ -1,0 +1,12 @@
+- name: Collecting Routers INFO
+  hosts: 10.10.0.103
+  tasks:
+    - name: Collecting Info
+      routeros_command:
+        commands:
+          - /system license print
+      register: system_print
+    - name: set
+      set_fact: id="{{ system_print.stdout_lines[0][0] | regex_replace('system-id:\s', '') }}"
+    - name: debug print
+      debug: var=id

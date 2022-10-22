@@ -1,0 +1,26 @@
+- name: Set Router Name and add IP-address from Netbox
+  hosts: routers
+  tasks:
+    - name: Getting router ID
+      set_fact:
+        router_id: "{{ groups['routers'].index(inventory_hostname) | int + 1 }}"
+    - name: Set tag
+      set_fact:
+        tag: chr{{router_id}}
+    - name: Getting devices data from Netbox
+      set_fact: device="{{ query('netbox.netbox.nb_lookup', 'ip-addresses', api_endpoint=NETBOX_API, api_filter='tag=ansibletest tag=' ~ tag, token=NETBOX_TOKEN) }}"
+    - name: Set Ip and Name data
+      set_fact:
+        router_name: "{{ device[0].value.assigned_object.device.name }}"
+        router_ip: "{{ device[0].value.address }}"
+    - name: Change CHR's name and adding Ip
+      routeros_command:
+        commands:
+          - /ip address print
+          - /ip address add address={{ router_ip }} interface=ether1
+          - /ip address print
+          - /system identity set name={{ router_name }}
+          - /system identity print
+      register: system_print
+    - name: Debug print
+      debug: var=system_print.stdout_lines

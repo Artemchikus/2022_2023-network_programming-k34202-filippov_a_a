@@ -31,5 +31,6 @@ Date of finished: ...
 7.	Осуществлена проверка существования туннеля между машинами.  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab1/images/12.png)  
  ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab1/images/13.png)  
+
 Вывод:  
 В ходе выполнения лабораторной работы были созданы две виртуальные машины, одна на Ubuntu другая на CHR. После чего между ними был создан VPN туннель с использованием Wireguard.

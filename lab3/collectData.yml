@@ -1,0 +1,16 @@
+- name: Collecting Devises from Netbox
+  hosts: netbox
+  vars:
+    Devices: []
+  tasks:
+  - name: Getting devices from Netbox
+    set_fact: Devices="{{ Devices + [item] }}"
+    loop: "{{ query('netbox.netbox.nb_lookup', 'devices', api_endpoint=NETBOX_API, token=NETBOX_TOKEN) }}"
+  - name: Store data in file
+    delegate_to: 127.0.0.1
+    copy:
+      content:
+        - "{{ Devices }}"
+      dest: /etc/ansible/lab3/devices.json
+  - name: debug
+    debug: var=Devices
