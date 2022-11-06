@@ -16,7 +16,7 @@ Date of finished: ...
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/1.png)  
 2.	Выполнена превичная конфигурация сети "Basic Forwarding" с помощью Makefile, а также проверена связь хостов через Ping.  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/2.png)   
-3.	Отредактирован файл basic.p4 для правильной кофигурации сети.
+3.	Отредактирован файл basic.p4 для правильной кофигурации сети.  
 3.1. Добавлен парсинг ethernet и ipv4 headers.  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/3.png)  
 3.2. Добавлена логика пеерсылки ipv4 пакетов.  
@@ -27,7 +27,7 @@ Date of finished: ...
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/6.png)  
 4.	Заново сконфигурирована сеть с помошью Makefile и исправленного basic.p4, проверена связь хостов через Ping и Pingall.  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/7.png)    
-5.	Отредактирован файл basic_tunnel.p4 для правильной кофигурации сети "Basic Tunneling".
+5.	Отредактирован файл basic_tunnel.p4 для правильной кофигурации сети "Basic Tunneling".  
 5.1. Добавлен парсинг myTunnel headers.  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/8.png)  
 5.2. Добавлена логика пересылки myTunnel пакетов, таблица myTunnel_exact для связи логики пересылки и header dst_id и валидация пактов с учетом myTunnel header.  
