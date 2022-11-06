@@ -5,7 +5,7 @@ Year: 2022/2023
 Group: K34202  
 Author: Filippov Artem Alekseevich  
 Lab: Lab4  
-Date of create: ...  
+Date of create: 06.11.2022  
 Date of finished: ...  
 
 Цель:  Изучить синтаксис языка программирования P4 и выполнить 2 задания обучающих задания от Open network foundation для ознакомления на практике с P4.  
