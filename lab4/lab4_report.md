@@ -40,8 +40,10 @@ Date of finished: ...
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/12.png)  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/13.png)  
 ![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/14.png)  
-8. Схемы сетей, создаваемых для выполнения заданий:  
-![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/15.png "Implementing Basic Forwarding")  
-![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/16.png " Implementing Basic Tunneling")  
+8. Схемы сетей, создаваемых для выполнения заданий.  
+8.1. Implementing Basic Forwarding
+![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/15.png)  
+8.2. Implementing Basic Tunneling 
+![Image text](https://github.com/Artemchikus/2022_2023-network_programming-k34202-filippov_a_a/raw/main/lab4/images/16.png)   
 Вывод:  
 В ходе выполнения лабораторной работы была создана виртуальная машина для работы с P4. После чего был зучен синтаксис языка программирования P4 и выполнены 2 задания обучающих задания от Open network foundation для ознакомления на практике с P4.  
